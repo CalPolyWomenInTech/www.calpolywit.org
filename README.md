@@ -13,7 +13,7 @@ Our goal is to create an **inclusive space** for women in tech to **connect, lea
 ## 👩‍💻 Meet the Team  
 
 ### 🎯 **Project Management**  
-- 🏆 **Rane Dy**  
+- 🏆 **Monika**  
 
 ### 💻 **Developers**  
 - 💻 **Rane Dy**  
