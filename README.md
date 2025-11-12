@@ -17,33 +17,29 @@ Our goal is to create an **inclusive space** for women in tech to **connect, lea
 
 ### 💻 **Developers**  
 - 💻 **Monika**
-- 💻 **Rane Dy**  
-- 💻 **Amal Latif**  
-- 💻 **Ruchitha Gande**  
-- 💻 **Melissa Gio**  
 
 ### 🎨 **UI/UX Designers**  
-- 🎨 **Rane Dy**  
-- 🎨 **Ruchitha Gande**  
-- 🎨 **Melissa Gio**  
-- 🎨 **Shuvashree Basnet**  
+- 🎨 **Monika**  
 
 ---
 
-📌 Contributing
+## 📌 Contributing
+
 We welcome contributions from anyone passionate about supporting women in tech! If you'd like to contribute:
 
-Fork the repository
-Create a new branch (feature-name)
-Make your changes
-Submit a pull request
-We appreciate your help! 💜
+- Fork the repository
+- Create a new branch (feature-name)
+- Make your changes
+- Submit a pull request
+- We appreciate your help! 💜
 
-📬 Contact Us
+---
+
+## 📬 Contact Us
 Have questions or suggestions? Feel free to reach out! 📩
 - 🌐 Website: (https://calpolywit.org/)
 
-🚀 Let’s build a strong Women in Tech community together! 💜✨
+## 🚀 Let’s build a strong Women in Tech community together! 💜✨
 
 Thank You for Visiting! 💜🚀
 
