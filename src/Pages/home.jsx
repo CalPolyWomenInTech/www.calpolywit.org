@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
 import '../Styles/home.css';
 import logo2 from '../assets/Logo/Women_In_Tech_Logo.png';
 import instagramLogo from '../assets/Logo/instaPurple.png';
@@ -13,21 +13,38 @@ function Home() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const images = [image1, image2, image3];
 
-  // Auto-rotate images every 3 seconds
-  useEffect(() => {
-    const interval = setInterval(() => {
-      nextImage();
+  // Auto-rotate images every 5 seconds. We store the interval id in a ref
+  // and restart the timer whenever the user manually changes slides so
+  // it doesn't immediately jump right after a manual navigation.
+  const intervalRef = useRef(null);
+
+  const startAutoRotate = useCallback(() => {
+    // clear any existing interval
+    if (intervalRef.current) {
+      clearInterval(intervalRef.current);
+    }
+
+    intervalRef.current = setInterval(() => {
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
     }, 5000);
-    return () => clearInterval(interval);
-  }, []);
+  }, [images.length]);
 
-  const nextImage = () => {
+  useEffect(() => {
+    startAutoRotate();
+    return () => {
+      if (intervalRef.current) clearInterval(intervalRef.current);
+    };
+  }, [startAutoRotate]);
+
+  const nextImage = useCallback(() => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-  };
+    startAutoRotate();
+  }, [images.length, startAutoRotate]);
 
-  const prevImage = () => {
+  const prevImage = useCallback(() => {
     setCurrentIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
-  };
+    startAutoRotate();
+  }, [images.length, startAutoRotate]);
 
   return (
     <div className="home">
