@@ -30,31 +30,28 @@
 }
 
 .about-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: block; /* Changed from flex to block */
   width: 100%;
-  gap: 20px;
-  flex-wrap: nowrap;
   position: relative;
 }
 
 .description-section {
-  flex: 1;
   font-family: 'Montserrat', sans-serif;
   font-size: 1.2rem;
   color: #5A005A;
-  line-height: 2; /* Optional: improve readability */
+  line-height: 2;
 }
 
 .image-card {
-  flex-shrink: 0;
+  float: right; /* Float image to the right */
   width: 650px;
   background: #ffffff;
   border-radius: 16px;
   box-shadow: 0 6px 24px rgba(0, 0, 0, 0.2);
   padding: 16px 16px 40px;
   position: relative;
+  margin-left: 40px; /* Space between text and image */
+  margin-bottom: 20px;
 }
 
 .purple-dot {
@@ -79,13 +76,17 @@
 
 @media (max-width: 768px) {
   .about-content {
-    flex-direction: column;
+    display: flex;
+    flex-direction: column-reverse; /* Text on top, image on bottom for mobile */
     align-items: center;
     gap: 16px;
   }
 
   .image-card {
+    float: none; /* Remove float on mobile */
     width: 100%;
     max-width: 280px;
+    margin-left: 0;
+    margin-bottom: 0;
   }
 }
