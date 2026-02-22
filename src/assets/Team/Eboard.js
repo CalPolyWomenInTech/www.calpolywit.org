@@ -13,6 +13,12 @@ import RaneImage from './TeamPics/DyRaneHeadshot3.png'
 import AlessandraImage from './TeamPics/Alessandra.png'
 import AleImage from './TeamPics/Ale.png'
 import KrishnaImage from './TeamPics/krishna.png'
+import VictoriaImage from './TeamPics/VictoriaLugo.jpg'
+import ElkeImage from './TeamPics/ElkeZak.jpg'
+import ErynImage from './TeamPics/ErynChen.png'
+import MarissaImage from './TeamPics/MarissaLee.png'
+import NatashaImage from './TeamPics/NatashaBudiman.jpg'
+import ShuvashreeImage from './TeamPics/ShuvashreeBasnet.jpg'
 
 
 export const Eboard = [
@@ -33,98 +39,77 @@ export const Eboard = [
   },
   {
       id: 2,
-      name: "Alexa De Lucas",
-      role: ["Chief Financial Officer"],
-      picture: AlexaImage,  
-      linkedin: "https://www.linkedin.com/in/alexa-delucas?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-  },
-  {
-      id: 3,
-      name: "Ashley Romero",
-      role: ["Director of Industry Relations"],
-      picture: AshleyImage,  
-      linkedin: "https://www.linkedin.com/in/ashley-romero-b25808132?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-  },
-  
-  {
-      id: 5,
-      name: "Boi Hoanh Lam",
-      role: ["Competition & Conference Liaison"],
-      picture: HoanhImage,  
-      linkedin: "https://www.linkedin.com/in/boi-hoanh-lam-?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-  },
-  {
-      id: 6,
-      name: "Ruchitha Gande",
-      role: ["Career Fair Chair"],
-      picture: RuchithaImage,  
-      linkedin: " https://www.linkedin.com/in/gande2/",
-  },
-  {
-      id: 7,
-      name: "Ayanna Sanges-Chu",
-      role: ["Sponsorship Coordinator"],
-      picture: dummyIcon,  
-      linkedin: "https://www.linkedin.com/in/ayanna-sanges-chu/",
-  },
-  {
-      id: 8,
-      name: "Guadalupe Vazquez",
-      role: ["Scholarship Coordinator"],
-      picture: dummyIcon,  
-      linkedin: "https://www.linkedin.com/in/guadalupe-vazquez-lorenzo-744aa1338?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BReyzO4uES1q4FMYA%2F9Zn1g%3D%3D",
-  },
-  {
-      id: 9,
-      name: "Aisling Gonzalez",
-      role: ["Co-Director of Community Outreach"],
-      picture: AislingImage,  
-      linkedin: "https://www.linkedin.com/in/aisling-gonzalez-51272220b/",
-  },
-  {
-      id: 10,
-      name: "Genova Cruz",
-      role: ["Co-Director of Community Outreach"],
-      picture: GenovaImage,  
-      linkedin: " https://www.linkedin.com/in/genova-cruz-6149341b3/",
-  },
-  {
-      id: 11,
       name: "Abigail Jeffie",
-      role: ["Director of Member Affairs"],
+      role: ["President"],
       picture: AbigailImage,  
       linkedin: "https://www.linkedin.com/in/abigail-jeffie/",
   },
   {
-      id: 12,
+      id: 3,
+      name: "Boi Hoanh Lam",
+      role: ["Vice President"],
+      picture: HoanhImage,  
+      linkedin: "https://www.linkedin.com/in/boi-hoanh-lam-/",
+  },
+  
+  {
+      id: 5,
+      name: "Victoria Lugo",
+      role: ["Director of Industry Relations"],
+      picture: VictoriaImage,  
+      linkedin: "https://www.linkedin.com/in/victoria-lugo-68bb07304/",
+  },
+  {
+      id: 6,
+      name: "Eryn Chen",
+      role: ["Sponsorship Coordinator"],
+      picture: ErynImage,  
+      linkedin: "https://www.linkedin.com/in/eryn-chen-871516252/",
+  },
+  {
+      id: 7,
+      name: "Natasha Budiman",
+      role: ["Scholarship Coordinator"],
+      picture: NatashaImage,  
+      linkedin: "https://www.linkedin.com/in/callistabudiman/",
+  },
+  {
+      id: 8,
       name: "Allyson Montellano",
-      role: ["Director of Marketing"],
+      role: ["Director of Member Affairs"],
       picture: AllysonImage,  
-      linkedin: "http://linkedin.com/in/allyson-montellano",
+      linkedin: "https://www.linkedin.com/in/allyson-montellano/",
+  },
+  {
+      id: 9,
+      name: "Elke Zak",
+      role: ["Director of Marketing"],
+      picture: ElkeImage,  
+      linkedin: "https://www.linkedin.com/in/elke-zak/",
+  },
+  {
+      id: 10,
+      name: "Marissa Lee",
+      role: ["Director of Media Production: Graphic Design"],
+      picture: MarissaImage,  
+      linkedin: "https://www.linkedin.com/in/marissalee22/",
+  },
+  {
+      id: 11,
+      name: "Shuvashree Basnet",
+      role: ["Director of Media Production: Photography & Videography"],
+      picture: ShuvashreeImage,  
+      linkedin: "https://www.linkedin.com/in/shuvashreebasnet/",
+  },
+  {
+      id: 12,
+      name: "Monika",
+      role: ["CS Consultant & Council Liaison,", "Web Dev Lead"],
+      picture: dummyIcon,  
+      linkedin: "https://www.linkedin.com/in/m-n-a-32588b337/",
   },
   {
       id: 13,
-      name: "Jarisse Escubido",
-      role: ["Co-Chief of Media Production"],
-      picture: JarisseImage,  
-      linkedin: "http://linkedin.com/in/jarisse-escubido",
-  },
-  {
-      id: 14,
-      name: "Alexandra Gonzalez",
-      role: ["Co-Chief of Media Production"],
-      picture: AleImage,  
-      linkedin: " https://www.linkedin.com/in/alexandra-gonzalez-3b42101b4/",
-  },
-  {
-      id: 15,
-      name: "Rane Dy",
-      role: ["CS Consultant & Council Liaison,", "Web Dev Lead"],
-      picture: RaneImage,  
-      linkedin: "https://www.linkedin.com/in/ranedy/",
-  },
-  {
-      id: 16,
       name: "Krishna Manoj",
       role: ["Engineering Consultant & Council Liaison"],
       picture: KrishnaImage,  
