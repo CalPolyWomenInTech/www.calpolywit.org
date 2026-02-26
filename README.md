@@ -19,11 +19,13 @@ Our goal is to create an **inclusive space** for women in tech to **connect, lea
 - 💻 **Monika**
 - 💻 **Shuvashree Basnet**
 - 💻 **Mandy Ly**
+- 💻 **Vivian Chen**
 
 ### 🎨 **UI/UX Designers**  
 - 🎨 **Monika**  
 - 🎨 **Shuvashree Basnet**
 - 🎨 **Mandy Ly**
+- 🎨 **Vivian Chen**
 
 ---
 
