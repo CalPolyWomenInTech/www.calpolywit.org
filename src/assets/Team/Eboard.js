@@ -17,6 +17,7 @@ import VictoriaImage from './TeamPics/VictoriaLugo.jpg'
 import ElkeImage from './TeamPics/ElkeZak.jpg'
 import ErynImage from './TeamPics/ErynChen.png'
 import MarissaImage from './TeamPics/MarissaLee.png'
+import MonikaImage from '../Team/dummyIcon.png'
 import NatashaImage from './TeamPics/NatashaBudiman.jpg'
 import ShuvashreeImage from './TeamPics/ShuvashreeBasnet.jpg'
 
