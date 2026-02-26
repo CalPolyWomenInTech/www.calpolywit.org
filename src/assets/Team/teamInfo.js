@@ -1,6 +1,8 @@
 import dummyIcon from "../Team/dummyIcon.png";
 import RaneImage from './TeamPics/DyRaneHeadshot3.png'
+import MonikaImage from '../Team/dummyIcon.png'
 import MelisaImage from './TeamPics/Melisa.jpg'
+import ShuvashreeImage from './TeamPics/ShuvashreeBasnet.jpg'
 import RuchithaImage from './TeamPics/Ruchitha.jpeg'
 
 export const teamInfo = [
