@@ -1,15 +1,14 @@
 .about-container {
   width: 100%;
-  min-height: 100vh; /* Use full height of the viewport */
   margin: 0; /* Ensure no default margins */
   display: flex;
   flex-direction: column;
+  flex: 1;
   justify-content: flex-start;
   padding: 40px;
   background-color: #F3D9F3;
   align-items: center;
   box-sizing: border-box; /* Ensure padding is included in total width/height */
-  overflow: hidden;
 }
 
 .title-container {
