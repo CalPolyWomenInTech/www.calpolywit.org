@@ -6,7 +6,6 @@
   flex-direction: column;
   justify-content: flex-start;
   padding: 40px;
-  background-color: #F3D9F3;
   align-items: center;
   box-sizing: border-box; /* Ensure padding is included in total width/height */
   overflow: hidden;
