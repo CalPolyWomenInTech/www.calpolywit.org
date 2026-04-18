@@ -8,7 +8,7 @@ import MembershipLogo from '../assets/Logo/MembershipLogo.png';
 import image1 from '../assets/WebsitePictures/CSAF.png';
 import image2 from '../assets/WebsitePictures/extra.jpg';
 import image3 from '../assets/WebsitePictures/award.jpg';
-import image4 from '../assets/WebsitePictures/WITCrowdStrikeOpenHouse2025.png';
+import image4 from '../assets/WebsitePictures/WITCrowdstrikeOpenHouse2025.png';
 import image5 from '../assets/WebsitePictures/WITOrientationFall2025.webp';
 import image6 from '../assets/WebsitePictures/WITPortfolioWorkshopFall2025.webp';
 
