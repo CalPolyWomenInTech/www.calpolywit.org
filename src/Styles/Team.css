@@ -10,7 +10,6 @@ html, body {
 .parent-container {
     height: auto; /* Ensure the body takes up full height */
     margin: 0; /* Remove default margin */
-    background-color: #ffeffd;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
