@@ -2,9 +2,6 @@
 
 /* Full-screen background container */
 .ContactBackground {
-    background-color: #ffeffd;
-    height: 100vh; /* Ensures full height */
-    width: 100vw; /* Ensures full width */
     display: flex;
     justify-content: center; /* Centers form horizontally */
     align-items: center; /* Centers form vertically */
