@@ -9,7 +9,6 @@
     justify-content: center; /* Centers form horizontally */
     align-items: center; /* Centers form vertically */
     padding: 20px; /* Prevents elements from touching screen edges */
-    overflow: hidden; /* Prevents unwanted scrolling */
 }
 
 /* Contact Form Container */
