@@ -37,12 +37,5 @@ export const teamInfo = [
         picture: VivianImage,  
         linkedin: "https://www.linkedin.com/in/cvivianne/",
       },
-      {
-        id: 1,
-        name: "Min Jung",
-        role: ["Web Developer"],
-        picture: dummyIcon,  
-        linkedin: "",
-      },
       
 ]
